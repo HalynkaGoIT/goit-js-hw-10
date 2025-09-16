@@ -1,0 +1,31 @@
+
+
+.header {
+  padding: 20px 0;
+}
+
+.nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.nav-link {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #747bff;
+  transform: translateY(-2px);
+}
